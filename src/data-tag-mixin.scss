@@ -1,0 +1,5 @@
+@mixin tagIcon($tag, $emoji) {
+    span.rm-page-ref[data-tag="#{$tag}"]:before {
+      content: quote($emoji+' ');
+    }
+}

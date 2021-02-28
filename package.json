@@ -1,0 +1,25 @@
+{
+  "name": "roamcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel main.scss",
+    "build": "parcel build src/main.scss --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serizawa-jp/roamcss.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serizawa-jp/roamcss/issues"
+  },
+  "homepage": "https://github.com/serizawa-jp/roamcss#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.8"
+  }
+}

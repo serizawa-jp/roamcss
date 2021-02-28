@@ -1,0 +1,330 @@
+// https://github.com/StephanvdZwaard/custom-roam-light-theme
+
+@import "./data-tag-mixin";
+
+@include tagIcon("Weekly review", "🗓️");
+@include tagIcon("deadline", "⏰");
+@include tagIcon("scheduled", "🗓️");
+@include tagIcon("Email", "📩");
+@include tagIcon("waitingfor", "⏳");
+@include tagIcon("food-for-thought", "💭");
+@include tagIcon("Questions", "❓");
+@include tagIcon("accepted", "✔️");
+@include tagIcon("published", "✔️");
+@include tagIcon("rejected", "❌");
+@include tagIcon("state-of-mind", "💭");
+@include tagIcon("in progress", "🔄");
+@include tagIcon("Archives", "🗄️");
+@include tagIcon("Projects", "📁");
+@include tagIcon("Research", "🔍");
+@include tagIcon("Data science", "🖥️");
+@include tagIcon("Goals", "🎯");
+@include tagIcon("Books", "📖");
+@include tagIcon("Podcasts", "🎧");
+@include tagIcon("Call", "📞");
+@include tagIcon("Writing", "✍️");
+@include tagIcon("Meeting", "💬");
+@include tagIcon("Ideas", "💡");
+
+span.rm-page-ref[data-tag="TwitterPost"] {
+    background: #81d5ed;
+    color: white;
+    padding: 2px 5px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="to listen"] {
+    background: #1a90d9;
+    color: white;
+    padding: 2px 5px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="to read"] {
+    background: #1470a9;
+    color: white;
+    padding: 2px 5px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="to watch"] {
+    background: #4ab3f4;
+    color: white;
+    padding: 2px 5px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Articles"] {
+    background: #ffc89d;
+    color: white;
+    padding: 2px 5px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Scientific articles"] {
+    background: #ffa762;
+    color: white;
+    padding: 2px 5px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Ideas"] {
+    background: #576d7e;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Writing"] {
+    background: #8998a4;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Meeting"] {
+    background: #8998a4;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Podcasts"] {
+    background: #e4e9ee;
+    color: black;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Books"] {
+    background: #e4e9ee;
+    color: black;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Data science"] {
+    background: #e4e9ee;
+    color: black;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Research"] {
+    background: #e4e9ee;
+    color: black;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Goals"] {
+    background: #e4e9ee;
+    color: black;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Archives"] {
+    background: #e4e9ee;
+    color: black;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Projects"] {
+    background: #e4e9ee;
+    color: black;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Weekly review"] {
+    background: #576d7e;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="state-of-mind"] {
+    background: #576d7e;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="food-for-thought"] {
+    background: #576d7e;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Questions"] {
+    background: #576d7e;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Call"] {
+    background: #8998a4;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Weekly review"] {
+    background: #576d7e;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Email"] {
+    background: #8998a4;
+    color: white;
+    padding: 2px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+/* Custom data tags */
+span.rm-page-ref[data-tag="TwitterPost"] {
+    background: #81d5ed !important;
+    color: white !important;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Literature Notes"] {
+    background: #9769ff !important;
+    color: white !important;
+    padding: 3px 7px;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+span.rm-page-ref[data-tag="Evergreen-Notes"] {
+    background: #0dbac6 !important;
+    color: #fff !important;
+    padding: 3px 8px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Seedling"] {
+    color: #0dbac6 !important;
+    padding: 3px 3px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Idea Bank"] {
+    color: #fcb815 !important;
+    padding: 3px 4px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Idea Bank"]:before {
+    content: "✦ ";
+}
+
+span.rm-page-ref[data-tag="Illustrated Notes"] {
+    color: #7172fc;
+    padding: 3px 4px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Garden Notes"] {
+    color: #9dbc13;
+    padding: 3px 4px;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+span.rm-page-ref[data-tag="Video Tutorial"] {
+    color: #db3b8d;
+    padding: 3px 4px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+span.rm-page-ref[data-tag="Essay"] {
+    background: #adcb2a;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Livestream"] {
+    color: #b979cf;
+    padding: 3px 4px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+span.rm-page-ref[data-tag="Talk"] {
+    background: #7172fc;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Waiting"] {
+    background: #f9c866;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Researching"] {
+    background: #ff9d66 !important;
+    color: #fff;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Synthesising"] {
+    background: #fc766f !important;
+    color: #fff !important;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+span.rm-page-ref[data-tag="Alive"] {
+    background: #ee5f85 !important;
+    color: #fff !important;
+    padding: 3px 7px;
+    line-height: 2em;
+    font-weight: 500;
+}
